@@ -1,5 +1,5 @@
 /******************************************************************************
-** Function name:		setMotor
+** Function name:		palMotorSetSpeed
 **
 ** Descriptions:		Sets the speed and direction for specified motor pair
 **
@@ -10,4 +10,4 @@
 ** Returned value:		None
 ** 
 ******************************************************************************/
-void setMotor(uint8 motor, uint8 direction, uint8 speed){}
+void palMotorSetSpeed(uint8 motor, uint8 direction, uint8 speed){}
