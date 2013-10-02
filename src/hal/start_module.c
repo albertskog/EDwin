@@ -1,5 +1,5 @@
 /******************************************************************************
-** Function name:		startModuleInit
+** Function name:		palStartModuleInit
 **
 ** Descriptions:		Initializes the start module
 **
@@ -7,10 +7,10 @@
 ** Returned value:		None
 ** 
 ******************************************************************************/
-uint8 startModule_Init(){}
+uint8 palStartModuleInit(){}
 
 /******************************************************************************
-** Function name:		receivedStartSignal
+** Function name:		palStartModuleReceivedStart
 **
 ** Descriptions:		Polls start-pin on the start module
 **
@@ -18,4 +18,4 @@ uint8 startModule_Init(){}
 ** Returned value:		STARTMODULE_START
 ** 
 ******************************************************************************/
-uint8 startModule_receivedStartSignal(){}
+uint8 palStartModuleReceivedStart(){}
