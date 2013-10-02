@@ -72,6 +72,11 @@ Applikationslagret är koden som bestämmer hur roboten beter sig. Det är här 
 
 Varje tillstånd har en enkel funktion, till exempel "åk framåt". När funktionen utförts kollar tillståndet vad som ska bli nästa tillstånd, dvs vilken pil som ska följas i diagrammet. Varje par av "runState()" och "nextState()"-funktioner paras ihop till ett tillstånd (state). I applikationslagret finns en struct för detta vilket ger oss en väldigt enkel och snygg main-loop:
 
+	typedef struct State{
+		uint8 *runState;
+		uint8 *nextState;
+	} State;
+
 	int main(){
 
 		State currentState = initialState;
