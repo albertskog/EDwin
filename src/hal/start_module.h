@@ -1,3 +1,3 @@
-uint8 startModule_Init();
+uint8 palStartModuleInit();
 
-uint8 startModule_receivedStartSignal();
+uint8 palStartModuleReceivedStart();
